@@ -3,7 +3,7 @@
 
 Futsal league is Flutter app that allows user to create futsal match by matching up different teams, adding players and tracking time and stats.
 
-It was created for a speciffic futsal league but can be used anywhere.
+It was created for a speciffic futsal league that i participated in but it can be used anywhere.
 
 ## Features
 
