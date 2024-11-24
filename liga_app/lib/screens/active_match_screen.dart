@@ -444,7 +444,7 @@ class _ActiveMatchScreenState extends State<ActiveMatchScreen> {
                             Navigator.of(context).pop();
                           },
                           style: ElevatedButton.styleFrom(
-                            primary: Colors.blue,
+                            backgroundColor: Colors.blue,
                             // fixedSize: Size(250, 50),
                           ),
                           child: Text(
@@ -523,7 +523,7 @@ class _ActiveMatchScreenState extends State<ActiveMatchScreen> {
                           Navigator.of(context).pop();
                         },
                         style: ElevatedButton.styleFrom(
-                          primary: Colors.blue,
+                          backgroundColor: Colors.blue,
                           // fixedSize: Size(250, 50),
                         ),
                         child: Text(
@@ -545,7 +545,7 @@ class _ActiveMatchScreenState extends State<ActiveMatchScreen> {
                           Navigator.of(context).pop();
                         },
                         style: ElevatedButton.styleFrom(
-                          primary: Colors.red,
+                          backgroundColor: Colors.red,
                           // fixedSize: Size(250, 50),
                         ),
                         child: Text(
@@ -736,7 +736,7 @@ class ButtonWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) => ElevatedButton(
       style: ElevatedButton.styleFrom(
-          primary: backgroundColor,
+          backgroundColor: backgroundColor,
           padding: EdgeInsets.symmetric(horizontal: 32, vertical: 16)),
       onPressed: onClicked,
       child: Text(

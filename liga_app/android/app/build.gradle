@@ -50,6 +50,8 @@ android {
         versionName flutterVersionName
     }
 
+    namespace 'com.mgranicapps.liga_app' // Add this line
+
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.

@@ -38,20 +38,22 @@ dependencies:
   # Multi Select Flutter is a package for creating multi-select widgets in a variety of waysMulti
   # Select Flutter is a package for creating multi-select widgets in a variety of ways
   # https://pub.dev/packages/multi_select_flutter
-  multi_select_flutter: ^4.1.2
+  multi_select_flutter: ^4.1.3
 
   # Include package to access sqlite database on mobile device
-  sqflite: ^2.0.1
+  sqflite: ^2.4.1
 
   # Wraps platform-specific persistent storage for simple data (NSUserDefaults on iOS and macOS,
   # SharedPreferences on Android, etc.)
-  shared_preferences: ^2.0.12
+  shared_preferences: ^2.3.3
 
   # library for communication with server (post, get ... requirests)
   http: ^0.13.4
 
   # library for internationalization
   intl: ^0.17.0
+
+  file: ^7.0.1
 
 dev_dependencies:
   flutter_test:
